@@ -1,5 +1,5 @@
 lista =[['Diego', '566','Anivia Supp','(21)9999999'],
-        ['Clara', '566','Namorada','(21)9999999'],
+        ['Clara', '566','Geek','(21)9999999'],
         ['Samara', '566','Otaka','(21)9999999'],
         ['Vitória', '566','Gamer','(21)9999999']]
 
@@ -17,4 +17,4 @@ def busca(setor,matriz):
         funcionarios_encontrados.append(cargo)
     return funcionarios_encontrados
 
-print(busca('Namorada',lista))
+print(busca('Geek',lista))
